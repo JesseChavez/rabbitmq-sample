@@ -7,7 +7,7 @@ require 'bunny'
 # be aware of virtual host names
 # '/thematrix' and 'thematrix' are not the same
 conn = Bunny.new(
-  host: '192.168.1.5', vhost: 'thematrix', user: 'neo', password: 'wakeup'
+  host: '10.0.0.160', vhost: 'thematrix', user: 'neo', password: 'wakeup'
 )
 conn.start
 
